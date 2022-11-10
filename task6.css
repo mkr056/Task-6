@@ -1,0 +1,13 @@
+table {
+color: #b66c2f;
+font-size:20px;
+padding: 10px;
+border: 1px solid #b66c2f;
+
+}
+
+#title:hover {
+color: #b66c2f;
+box-shadow: 3px 3px 7px #000000
+}
+

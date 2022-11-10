@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task 6</title>
+<link href="task6.css" rel="stylesheet" type="text/css"/>
+<script src="task6.js"></script>
+</head>
+<body>
+<h2 id="title">Order form</h2>
+<form>
+<table>
+<tr>
+<td><label for="fname">First name:</label></td>
+<td><label for="lname">Last name:</label></td>
+</tr>
+<tr>
+<td><input type="text" id="fname" name="fname" placeholder="John"></td>
+<td><input type="text" id="lname" name="lname" placeholder="Smith"></td>
+</tr>
+
+<tr>
+<td><label for="email">Email:</label></td>
+<td><label for="pnumber">Phone number:</label></td>
+</tr>
+<tr>
+<td><input type="email" id="email" name="email" placeholder="jsmith@gmail.com"></td>
+<td><input type="tel" id="pnumber" name="pnumber" placeholder="+49 2224 123060"></td>
+</tr>
+
+
+<tr>
+<td><label for="address">Delivery address:</label></td>
+<td><label for="city">City:</label></td>
+<td><label for="zipcode">ZIP code:</label><br></td>
+</tr>
+
+<tr>
+<td><input type="text" id="address" name="address" placeholder="25 Long Road"></td>
+<td><input type="text" id="city" name="city" placeholder="Munich"></td>
+<td><input type="text" id="zipcode" name="zipcode" placeholder="81673"></td>
+</tr>
+
+</table><br>
+<label for="fname">Payment method:</label><br>
+
+  <input type="radio" id="cash" name="choice" value="Cash" checked="checked">
+  <label for="case">Cash</label><br>
+  <input type="radio" id="card" name="choice" value="With credit card on the spot">
+  <label for="card">With credit card on the spot</label><br><br>
+<textarea placeholder="Comments..."></textarea><br><br>
+
+
+
+<input onclick="submitButtonClicked()" type="submit" value="Submit">
+
+
+
+</form>
+</body>
+</html>
